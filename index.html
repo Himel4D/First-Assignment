@@ -14,6 +14,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin: 0 140px;
      }
      .title{
  color: var(--Dark-01, #181818);
@@ -40,15 +41,40 @@ font-weight: 800;
        background: #FD6E0A;
        border: 0;
        color:var(--White-Color, #FFF);
-       font-size: 18px;
+       font-size: 16px;
        font-weight: 700;
        padding: 10px 20px;
+     }
+     /* header related */
+     .header{
+        background-color: #FFF8F3;   
+     }
+     .banner{
+        padding: 115px 170px 75px 140px;
+        display: flex;
+        align-items: center;
+     }
+     .btn-contact{
+        color: #FD6E0A;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700; 
+        border-radius: 5px;
+        border: 1px solid #FD6E0A; 
+        width: 110px;
+        height: 38px;
+        flex-shrink: 0;
+        background-color: #FFF8F3;
+        margin-left: 7px;
+     }
+     .banner .hardy{
+        width: 500px;
      }
 
     </Style>
 </head>
 <body>
-    <header>
+    <header class="header">
         <nev>
             <h3 class="title">Ma<span class="mary-color">r</span>y</h3>
             <ul>
@@ -58,6 +84,16 @@ font-weight: 800;
 
             </ul>
         </nev>
+        <div class="banner">
+            <div class="banner-content"> 
+            <h3 class="banner-1">Hi, I  am </h3> 
+            <h1 class="banner-2">Mary Hardy </h1>  
+            <p> Shot what able cold new see hold.Friendly as an betrayed formerly<br> he. Morning because as to society behaved moments.</p> 
+            <button class="btn-prymari">Download CV </button>
+            <button class="btn-contact">Contact</button>
+            </div>
+            <img class="hardy" src="img/hardy.png">
+        </div>
 
     </header>
     <main>
